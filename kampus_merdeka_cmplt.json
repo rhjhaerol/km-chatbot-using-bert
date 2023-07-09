@@ -1,0 +1,1098 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hai",
+        "punten",
+        "halo",
+        "hei",
+        "hi",
+        "pagi",
+        "siang",
+        "sore",
+        "malam",
+        "permisi"
+      ],
+      "responses": [
+        "Hai! ITTPBot di sini. Mau tau informasi tentang kampus merdeka?",
+        "Halo! Saya ITTPBot, salam kenal ya! Mau tau tentang kampus merdeka?",
+        "Helo! Ini ITTPBot. Lagi kepo tentang kampus merdeka?"
+      ]
+    },
+    {
+      "tag": "ITTPBot",
+      "patterns": [
+        "Apa itu ITTPBot?",
+        "Siapa ITTPBot?",
+        "Kamu siapa?",
+        "Siapa Kamu?",
+        "ITTPBot itu siapa?",
+        "ITTPBot siapa?",
+        "ITTPBot itu apa?",
+        "Siapa itu ITTPBot?",
+        "Defenisi ITTPBot",
+        "Penjelasan ITTPBot"
+      ],
+      "responses": [
+        "ITTPBot adalah aplikasi chatbot informasi layanan akademik khusus program Merdeka Belajar Kampus Merdeka",
+        "ITTPBot itu adalah teman informasi kamu tentang Kampus Merdeka!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "See you",
+        "Sampai jumpa lagi",
+        "See you again"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak",
+        "Terima kasih sudah membantu",
+        "Makasih banyak",
+        "Thank you so much",
+        "Terima kasih banyak ya",
+        "Terima kasih banyak bantuannya"
+      ],
+      "responses": [
+        "Dengan senang hati",
+        "Sama-sama"
+      ]
+    },
+    {
+      "tag": "penjelasan_kampus_merdeka",
+      "patterns": [
+        "Apa itu Kampus Merdeka?",
+        "Apa Kampus Merdeka?",
+        "Kampus Merdeka?",
+        "Kampus Merdeka adalah",
+        "Defenisi Kampus Merdeka?",
+        "Pengertian Kampus Merdeka",
+        "Apa pengertian dari Kampus Merdeka?",
+        "Apa defenisi dari Kampus Merdeka?",
+        "Penjelasan Kampus Merdeka",
+        "Apa penjelasan dari Kampus Merdeka"
+      ],
+      "responses": [
+        "Kampus Merdeka adalah kebijakan yang dikeluarkan oleh Kemendikbudristek dengan memberikan hak kepada Mahasiswa untuk mengambil mata kuliah di luar program studi selama 1 semester dan berkegiatan di luar perguruan tinggi selama 2 semester. Perguruan tinggi diberikan kebebasan untuk menyediakan kegiatan Kampus Merdeka yang sesuai dengan kebutuhan dan minat mahasiswanya"
+      ]
+    },
+    {
+      "tag": "tujuan_kampus_merdeka",
+      "patterns": [
+        "Apa tujuan Kampus Merdeka?",
+        "Tujuan Kampus Merdeka adalah",
+        "Tujuan dari Kampus Merdeka?",
+        "Apa tujuan dari Kampus Merdeka?",
+        "Tujuan Kampus Merdeka",
+        "Kampus Merdeka mempunyai tujuan?",
+        "Sebutkan tujuan dari Kampus Merdeka?",
+        "Dapatkah kamu menyebutkan tujuan dari Kampus Merdeka?",
+        "Coba sebutkan tujuan kampus Merdeka?",
+        "Kampus Merdeka memiliki tujuan?"
+      ],
+      "responses": [
+        "Tujuan kebijakan Kampus Merdeka adalah memberikan kesempatan kepada mahasiswa untuk memilih mata kuliah yang akan mereka tempuh berdasarkan keinginan sendiri serta mendorong mahasiswa meningkatkan soft skills serta hard skills agar siap bersaing dalam dunia global."
+      ]
+    },
+    {
+      "tag": "persyaratan_kampus_merdeka",
+      "patterns": [
+        "Apa persyaratan mengikuti Kampus Merdeka?",
+        "Syarat Kampus Merdeka?",
+        "Syarat mengikuti Kampus Merdeka?",
+        "Apa syarat Kampus Merdeka?",
+        "Apa saja syarat Kampus Merdeka?",
+        "Apa syarat mengikuti Kampus Merdeka?",
+        "Persyaratan Kampus Merdeka",
+        "Persyaratan mengikuti Kampus Merdeka",
+        "Sebutkan persyarakan Kampus Merdeka?",
+        "Apa persyaratan dari Kampus Merdeka?"
+      ],
+      "responses": [
+        "Persyaratan mengikuti program Kampus Merdeka, yaitu merupakan mahasiswa yang berasal dari Program Studi terakreditasi dan terdaftar aktif pada PDDikti."
+      ]
+    },
+    {
+      "tag": "jenis_kampus_merdeka",
+      "patterns": [
+        "Apa saja jenis program Kampus Merdeka?",
+        "Jenis program Kampus Merdeka",
+        "Program apa yang tersedia dalam Kampus Merdeka?",
+        "Program apa saja yang bisa diambil dalam Kampus Merdeka?",
+        "Jenis kegiatan Kampus Merdeka",
+        "Apa opsi program yang ada dalam Kampus Merdeka?",
+        "Program apa saja yang ditawarkan dalam Kampus Merdeka?",
+        "Apa ragam program yang tersedia di Kampus Merdeka?",
+        "Apa pilihan program yang bisa diikuti dalam Kampus Merdeka?",
+        "Apa saja jenis program yang ditawarkan dalam Kampus Merdeka"
+      ],
+      "responses": [
+        "Jenis kegiatan yang tersedia di program Kampus Merdeka, yaitu: Magang Bersertifikat, Studi Independen, Kampus Mengajar, Indonesian International Student Mobility Awards (IISMA), Pertukaran Mahasiswa Merdeka, Membangun Desa (KKN Tematik), Proyek Kemanusiaan, Riset atau Penelitian, dan Wirausaha"
+      ]
+    },
+    {
+      "tag": "penjelasan_studi_independen",
+      "patterns": [
+        "Apa itu Studi Independen?",
+        "Studi Independen?",
+        "Apa Studi Independen?",
+        "Studi Independen adalah",
+        "Apa pengertian dari Studi Independen?",
+        "Apa yang dimaksud dengan Studi Independen?",
+        "Apa defenisi dari Studi Independen?",
+        "Defenisi Studi Independen",
+        "Bagaimana defenisi Studi Independen?",
+        "Penjelasan Studi Independen"
+      ],
+      "responses": [
+        "Studi Independen merupakan salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk mewujudkan gagasan mahasiswa dalam mengembangkan diri melalui aktivitas di luar perkuliahan dan menambah kompetensi spesifik serta praktis yang akan digunakan dalam dunia industri"
+      ]
+    },
+    {
+      "tag": "persyaratan_studi_independen",
+      "patterns": [
+        "Apa saja persyaratan Studi Independen?",
+        "Syarat Studi Independen",
+        "Apa syarat Studi Independen",
+        "Apa syarat-syarat yang harus dipenuhi peserta Studi Independen?",
+        "Apa saja hal-hal yang perlu dipenuhi sebagai persyaratan Studi Independen?",
+        "Apa persyaratan dasar yang harus dipenuhi peserta Studi Independen?",
+        "Apa persyaratan utama yang harus dipenuhi dalam Studi Independen?",
+        "Apa saja kriteria yang harus dipenuhi untuk mengikuti Studi Independen?",
+        "Persyaratan Studi Independen",
+        "Apa persyaratan Studi Independen?"
+      ],
+      "responses": [
+        "Tidak ada persyaratan khusus. Seluruh mahasiswa dari perguruan tinggi dan program studi apapun dapat mengikuti program sesuai persyaratan setiap mitra"
+      ]
+    },
+    {
+      "tag": "perguruan_tinggi_studi_independen",
+      "patterns": [
+        "Mahasiswa dari perguruan tinggi apa saja yang dapat mengikuti program Studi Independen?",
+        "Mahasiswa dari mana saja yang dapat mengikuti program Studi Independen?",
+        "Mahasiswa dari mana saja yang dapat mengikuti Studi Independen?",
+        "Apa saja perguruan tinggi yang memperbolehkan mahasiswa mengikuti Studi Independen?",
+        "Mana saja perguruan tinggi yang memberikan kesempatan kepada mahasiswa untuk mengikuti Studi Independen?",
+        "Perguruan tinggi mana yang mengizinkan mahasiswa untuk melakukan Studi Independen?",
+        "Apakah mahasiswa dari seluruh penjuru dapat mengambil bagian dalam program Studi Independen?",
+        "Dari berbagai daerah mana saja mahasiswa dapat mengikuti program Studi Independen?",
+        "Mahasiswa asal perguruan apa yang berhak mengikuti Studi Independen?",
+        "Perguruan tinggi mana yang memungkinkan mahasiswa melaksanakan program Studi Independen?"
+      ],
+      "responses": [
+        "Mahasiswa dari semua perguruan tinggi negeri dan swasta di Indonesia yang terdaftar pada PDDikti dapat mengikuti program Studi Independen"
+      ]
+    },
+    {
+      "tag": "jurusan_studi_independen",
+      "patterns": [
+        "Mahasiswa dari jurusan dan jenjang apa saja yang dapat mengikuti program Studi Independen?",
+        "Mahasiswa dari jurusan apa yang dapat mengikuti program Studi Independen?",
+        "Mahasiswa dari jurusan apa yang dapat mengikuti Studi Independen?",
+        "Mahasiswa pada jenjang apa saja yang dapat mengikuti program Studi Independen?",
+        "Apa saja jurusan yang memperbolehkan mahasiswa mengikuti Studi Independen?",
+        "Apa saja jenjang yang memperbolehkan mahasiswa mengikuti Studi Independen?",
+        "Jenjang pendidikan mengikuti Studi Independen?",
+        "Jenjang pendidikan apa saja yang dapat mengikuti program Studi Independen?",
+        "Jurusan apa saja yang memberikan kesempatan bagi mahasiswa untuk mengikuti Studi Independen?",
+        "Apa saja program studi yang menerima mahasiswa untuk menjalani Studi Independen?"
+      ],
+      "responses": [
+        "Mahasiswa dari semua jurusan pada jenjang D3, D4, dan S1 dapat mengikuti program Studi Independen dengan persetujuan dari Perguruan Tinggi masing-masing"
+      ]
+    },
+    {
+      "tag": "biaya_studi_independen",
+      "patterns": [
+        "Apakah mahasiswa yang mengikuti program Studi Independen perlu membayar biaya studi?",
+        "Apakah Studi Independen bayar?",
+        "Apakah mahasiswa perlu membayar mengikuti Studi Independen?",
+        "Apakah ada biaya yang harus dibayar untuk mengikuti Studi Independen?",
+        "Apakah Studi Independen memerlukan pembayaran?",
+        "Apakah biaya Studi Independen bervariasi tergantung pada program?",
+        "Bagaimana sistem pembayaran diatur dalam program Studi Independen?",
+        "Biaya Studi Independen?",
+        "Berapa biaya Studi Independen?",
+        "Apakah ada komponen biaya terkait dengan Studi Independen?"
+      ],
+      "responses": [
+        "Mahasiswa tidak perlu membayar biaya studi"
+      ]
+    },
+    {
+      "tag": "pilihan_studi_studi_independen",
+      "patterns": [
+        "Apakah pilihan studi harus sesuai dengan bidang/jurusan saya?",
+        "Apakah pilihan studi harus sama dengan jurusan saya?",
+        "Apakah pilihan studi harus sama dengan bidang saya?",
+        "Apakah penting untuk memilih program studi yang sejalan dengan jurusan saya?",
+        "Apakah penting untuk memilih program studi yang sejalan dengan bidang atau jurusan yang saya tekuni?",
+        "Apakah harus memilih studi sesuai jurusan saya?",
+        "Apakah harus memilih studi sesuai bidang saya?",
+        "Pilihan studinya apakah harus sama dengan jurusan saya?",
+        "Pilihan studinya apakah harus sama dengan bidang saya?",
+        "Pilihan studi Studi Independen"
+      ],
+      "responses": [
+        "Tidak. Kegiatan Studi Independen dapat dilakukan dalam bentuk kerja kelompok lintas disiplin keilmuan, selama memenuhi persyaratan dari program yang ditawarkan"
+      ]
+    },
+    {
+      "tag": "pelaksanaan_studi_independen",
+      "patterns": [
+        "Apakah saya masih dapat mengikuti kegiatan perkuliahan di kampus selama pelaksanaan program Studi Independen?",
+        "Apakah selama pelaksanaan Studi Independen boleh mengikuti perkuliahan di kampus?",
+        "Apakah bisa mengikuti kegiatan perkuliahan di kampus selama pelaksanaan Studi Independen?",
+        "Apakah saya tetap bisa menghadiri kuliah di kampus selama menjalani program Studi Independen?",
+        "Apakah saya masih perlu mengikuti kegiatan perkuliahan di kampus saat menjalankan program Studi Independen?",
+        "Apakah saya diizinkan untuk mengikuti kuliah di kampus sambil menjalani program Studi Independen?",
+        "Apakah ada kewajiban untuk hadir di kampus selama melakukan program Studi Independen?",
+        "Apakah saya harus tetap menghadiri kelas di kampus ketika sedang menjalankan Studi Independen?",
+        "Apakah saya masih diperbolehkan mengikuti kegiatan perkuliahan reguler di kampus selama pelaksanaan Studi Independen?",
+        "Apakah saya masih diharuskan hadir di kampus untuk kuliah ketika sedang menjalankan program Studi Independen?",
+        "Apakah ada pembatasan kehadiran di kampus selama menjalankan program Studi Independen?"
+      ],
+      "responses": [
+        "Mahasiswa diharapkan untuk fokus dan berkomitmen dalam mengikuti seluruh rangkaian program, oleh sebab itu program dapat dikonversikan hingga sebesar 20 sks"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_studi_independen",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program Studi Independen?",
+        "Berapa lama periode Studi Independen?",
+        "Bagaimana cara mendaftar Studi Independen?",
+        "Berapa lama Studi Independen berlangsung?",
+        "periode Studi Independen",
+        "Cara mendaftar Studi Independen?",
+        "Periode program Studi Independen?",
+        "Berapa durasi  program Studi Independen?",
+        "Berapa jangka waktu program Studi Independen?",
+        "Berapa lama peserta dapat mengikuti program Studi Independen?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 hingga 2 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/program/studi-independen"
+      ]
+    },
+    {
+      "tag": "manfaat_studi_independen",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Studi Independen?",
+        "Manfaat Studi Independen?",
+        "Apa saja yang didapatkan mengikuti Studi Independen?",
+        "Apa saja manfaat Studi Independen?",
+        "Apa keuntungan yang bisa didapatkan dari mengikuti program Studi Independen?",
+        "Apa saja keuntungan mengikuti program Studi Independen",
+        "Apa saja manfaat mengikuti program Studi Independen?",
+        "Apa manfaat yang diperoleh dari program Studi Independen?",
+        "Keuntungan mengikuti program Studi Independen",
+        "Apa manfaat yang didapatkan dari program Studi Independen?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi hingga 20 SKS, dapat melakukan program sertifikasi yang diakui Kemendikbudristek selama 1-2 semester, biaya partisipasi serta biaya hidup, dan sertifikat sertifikasi atau short course"
+      ]
+    },
+    {
+      "tag": "mitra_studi_independen",
+      "patterns": [
+        "Apa saja mitra yang tergabung dalam Studi Independen?",
+        "Mitra Studi Independen?",
+        "Apa saja mitra Studi Independen",
+        "Siapa saja yang menjadi mitra program Studi Independen?",
+        "Dengan siapa saja program Studi Independen menjalin kerjasama?",
+        "Siapa saja yang bekerja sama dengan program Studi Independen?",
+        "Apa organisasi yang terlibat dalam program Studi Independen?",
+        "Siapa saja yang berkolaborasi dengan program Studi Independen?",
+        "Apa pihak-pihak yang terlibat sebagai mitra dalam program Studi Independen?",
+        "Apa lembaga yang menjadi mitra program Studi Independen?"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Orbit Future Academy, Microsoft Indonesia, Ruang Guru, Zenius, dsb. Info lebih lanjut melalui laman https://kampusmerdeka.kemdikbud.go.id/program/studi-independen/browse"
+      ]
+    },
+    {
+      "tag": "penjelasan_magang",
+      "patterns": [
+        "Apa itu Magang Bersertifikat?",
+        "Program Magang?",
+        "Apa itu program Magang",
+        "Magang adalah",
+        "Penjelasan Magang",
+        "Apa pengertian dari Magang?",
+        "Apa defenisi dari Magang?",
+        "Apa yang dimaksud dengan Magang",
+        "Pengertian Magang",
+        "Defenisi Magang"
+      ],
+      "responses": [
+        "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk memberikan kesempatan kepada mahasiswa mendapatkan pengalaman kerja di industri/dunia profesi nyata untuk mendapatkan hard skills maupun soft skills."
+      ]
+    },
+    {
+      "tag": "persyaratan_magang",
+      "patterns": [
+        "Apa saja persyaratan Magang Bersertifikat?",
+        "Syarat Magang?",
+        "Syarat Magang Bersertifikat?",
+        "Apa saja syarat Magang?",
+        "Apa syarat yang harus dipenuhi untuk mengikuti Magang?",
+        "Apa kriteria yang harus dipenuhi untuk mengikuti Magang?",
+        "Apa persyaratan yang harus dimiliki untuk mengikuti Magang?",
+        "Apa saja syarat mengikuti program Magang?",
+        "Apa saja persyaratan mengikuti program Magang?",
+        "Apa saja hal yang perlu dipersiapkan sebagai persyaratan Magang?"
+      ],
+      "responses": [
+        "Tidak ada persyaratan khusus. Seluruh mahasiswa dari perguruan tinggi dan program studi apapun dapat mengikuti program sesuai persyaratan setiap mitra"
+      ]
+    },
+    {
+      "tag": "perguruan_tinggi_magang",
+      "patterns": [
+        "Mahasiswa dari perguruan tinggi apa saja yang dapat mengikuti program Magang Bersertifikat?",
+        "Mahasiswa dari mana saja yang dapat mengikuti program Magang?",
+        "Mahasiswa dari mana saja yang dapat mengikuti Magang?",
+        "Mahasiswa dari universitas mana saja yang dapat mengikuti program Magang?",
+        "Apa universitas yang memberikan kesempatan kepada mahasiswa untuk mengikuti program Magang?",
+        "Dari institusi pendidikan tinggi mana saja mahasiswa dapat mengambil bagian dalam program Magang?",
+        "Universitas mana yang menyediakan program Magang bagi mahasiswa?",
+        "Apa saja perguruan tinggi yang menerima mahasiswa untuk menjalani program Magang?",
+        "Mahasiswa dari universitas mana saja berhak mengikuti program Magang?",
+        "Mahasiswa dari perguruan tinggi mana saja yang dapat mengikuti program Magang?"
+      ],
+      "responses": [
+        "Mahasiswa dari semua perguruan tinggi negeri dan swasta di Indonesia yang terdaftar pada PDDikti dapat mengikuti program Magang Bersertifikat"
+      ]
+    },
+    {
+      "tag": "jurusan_magang",
+      "patterns": [
+        "Mahasiswa dari jurusan dan jenjang apa saja yang dapat mengikuti program Magang Bersertifikat?",
+        "Mahasiswa dari jurursan apa saja yang dapat mengikuti program Magang?",
+        "Mahasiswa dari jenjang apa saja yang dapat mengikuti program Magang?",
+        "Mahasiswa dari jurusan apa yang dapat mengikuti Magang?",
+        "Apa saja jurusan yang memperbolehkan mahasiswa mengikuti Magang?",
+        "Apa saja jenjang yang memperbolehkan mahasiswa mengikuti Magang?",
+        "Jenjang pendidikan mengikuti Magang?",
+        "Jenjang pendidikan apa saja yang dapat mengikuti program Magang?",
+        "Jurusan apa saja yang memberikan kesempatan bagi mahasiswa untuk mengikuti Magang?",
+        "Apa saja program studi yang menerima mahasiswa untuk menjalani Magang?"
+      ],
+      "responses": [
+        "Mahasiswa dari semua jurusan pada jenjang S1 dapat mengikuti program Magang Bersertifikat dengan persetujuan dari Perguruan Tinggi masing-masing"
+      ]
+    },
+    {
+      "tag": "gaji_magang",
+      "patterns": [
+        "Apakah mahasiswa yang mengikuti program Magang Bersertifikat akan menerima gaji?",
+        "Apakah program Magang dapat gaji?",
+        "Apakah mahasiswa mendapatkan gaji dari program Magang?",
+        "Apakah mendapatkan gaji dari program Magang?",
+        "Apakah mahasiswa mendapatkan imbalan uang dari program Magang?",
+        "Apakah mahasiswa diberikan upah dalam program Magang?",
+        "Apakah program Magang memberikan gaji kepada mahasiswa?",
+        "Apakah mahasiswa menerima bayaran dari program Magang?",
+        "Apakah program Magang memberi gaji kepada peserta mahasiswa?",
+        "Apakah ada pembayaran yang diberikan kepada mahasiswa dalam program Magang?"
+      ],
+      "responses": [
+        "Mahasiswa akan mendapatkan uang saku dari Kementrian/Mitra"
+      ]
+    },
+    {
+      "tag": "seleksi_magang",
+      "patterns": [
+        "Bagaimana proses seleksi program Magang Bersertifikat",
+        "Apakah program Magang ada seleksi?",
+        "Bagaimana seleksi program Magang?",
+        "Bagaimana proses seleksi untuk program Magang",
+        "Seleksi Magang",
+        "Seleksi program Magang",
+        "Bagaimana kriteria untuk seleksi program Magang?",
+        "Bagaimana persyaratan untuk seleksi program Magang?",
+        "Bagaimana cara menyeleksi peserta untuk program Magang?",
+        "Bagaimana mekanisme penyeleksian peserta program Magang?"
+      ],
+      "responses": [
+        "Mahasiswa akan diseleksi secara Administratif dan Akademik oleh mitra magang"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_magang",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program Magang Bersertifikat?",
+        "Bagaimana cara mendaftar program Magang?",
+        "Berapa lama periode Magang?",
+        "Cara daftar magang?",
+        "Periode program Magang?",
+        "Cara mendaftar Magang?",
+        "Periode program Magang?",
+        "Berapa durasi  program Magang?",
+        "Berapa jangka waktu program Magang?",
+        "Berapa lama peserta dapat mengikuti program Magang?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 hingga 3 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/program/magang"
+      ]
+    },
+    {
+      "tag": "manfaat_magang",
+      "patterns": [
+        "Apa saja manfaat program Magang?",
+        "Manfaat program magang?",
+        "Manfaat Magang?",
+        "Apa saja manfaat Magang?",
+        "Apa keuntungan yang bisa didapatkan dari mengikuti program Magang?",
+        "Apa saja keuntungan mengikuti program Magang",
+        "Apa saja manfaat mengikuti program Magang?",
+        "Apa manfaat yang diperoleh dari program Magang?",
+        "Keuntungan mengikuti program Magang",
+        "Apa manfaat yang didapatkan dari program Magang?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi hingga 20 sks, dibimbing mentor staf profesional secara full-time, sertifikasi sesuai kinerja, dan uang saku serta biaya hidup selama magang"
+      ]
+    },
+    {
+      "tag": "mitra_magang",
+      "patterns": [
+        "Apa saja mitra yang tergabung dalam Magang Bersertifikat?",
+        "Apa saja mitra program Magang?",
+        "Mitra program Magang?",
+        "Siapa saja yang menjadi mitra program Magang?",
+        "Dengan siapa saja program Magang menjalin kerjasama?",
+        "Siapa saja yang bekerja sama dengan program Magang?",
+        "Apa organisasi yang terlibat dalam program Magang?",
+        "Siapa saja yang berkolaborasi dengan program Magang?",
+        "Apa pihak-pihak yang terlibat sebagai mitra dalam program Magang?",
+        "Apa instansi yang menjadi partner dalam program Magang?",
+        "Apa lembaga yang menjadi mitra program Magang?"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Telkom Indonesia, XL Axiata, MAP, Bank BRI, Shopee, Tokopedia, Traveloka, dsb. Info lebih lanjut melalui laman https://kampusmerdeka.kemdikbud.go.id/program/magang/browse"
+      ]
+    },
+    {
+      "tag": "lowongan_magang",
+      "patterns": [
+        "Berapa banyak lowongan magang yang dapat saya daftarkan?",
+        "Berapa banyak lowongan yang bisa saya daftarkan?",
+        "Apakah bisa mendaftar banyak lowongan?",
+        "Lowongan Magang",
+        "Lowongan yang dapat saya daftarkan?",
+        "Berapa banyak kesempatan magang yang bisa saya ajukan?",
+        "Berapa banyak posisi magang yang bisa saya lamar?",
+        "Apakah ada pembatasan jumlah lowongan magang yang bisa saya daftarkan?",
+        "Berapa banyak slot magang yang dapat saya daftar?",
+        "Berapa banyak lowongan magang yang bisa saya daftarkan secara keseluruhan?"
+      ],
+      "responses": [
+        "Saat ini kami tidak membatasi jumlah lowongan yang dapat didaftarkan oleh mahasiswa dan berbeda di setiap semester"
+      ]
+    },
+    {
+      "tag": "daftar_lowongan_magang",
+      "patterns": [
+        "Apakah saya dapat mendaftar lowongan magang di luar platform Magang Bersertifikat?",
+        "Daftar lowongan magang?",
+        "Apakah bisa mendaftar lowongan magang di luar program Magang?",
+        "Apakah saya dapat mencari peluang magang di luar platform resmi Magang Bersertifikat?",
+        "Apakah ada alternatif pendaftaran untuk lowongan magang selain menggunakan platform Magang Bersertifikat?",
+        "Apakah saya diizinkan untuk mendaftar lowongan magang di luar sistem Magang Bersertifikat?",
+        "Apakah saya memiliki opsi untuk mendaftar lowongan magang di platform lain selain Magang Bersertifikat?",
+        "Apakah saya diperbolehkan mendaftar lowongan magang di luar platform Magang Bersertifikat?",
+        "Apakah ada kemungkinan bagi saya untuk mendaftar lowongan magang di tempat lain selain platform Magang Bersertifikat?",
+        "Apakah saya bisa mengajukan diri untuk lowongan magang di platform selain Magang Bersertifikat?"
+      ],
+      "responses": [
+        "Program Magang Bersertifikat hanya berlaku untuk kegiatan magang diluar ruang lingkup mitra kerja sama Kampus Merdeka"
+      ]
+    },
+    {
+      "tag": "penjelasan_kampus_mengajar",
+      "patterns": [
+        "Apa itu Kampus Mengajar?",
+        "Kampus Mengajar",
+        "Apa Kampus Mengajar?",
+        "Kampus mengajar adalah",
+        "Penjelasan Kampus mengajar",
+        "Apa pengertian dari Kampus mengajar?",
+        "Apa defenisi dari Kampus mengajar?",
+        "Apa yang dimaksud dengan Kampus mengajar",
+        "Pengertian Kampus mengajar",
+        "Defenisi Kampus mengajar"
+      ],
+      "responses": [
+        "Salah satu program Kampus Merdeka Kemendikbud berbentuk kegiatan pembelajaran oleh mahasiswa yang memiliki minat dalam memperdalam ilmunya serta membantu meningkatkan pemerataan kualitas pendidikan. Sekolah tempat praktek mengajar dapat berada di lokasi kota maupun di daerah terpencil"
+      ]
+    },
+    {
+      "tag": "persyaratan_kampus_mengajar",
+      "patterns": [
+        "Apa saja persyaratan Kampus Mengajar?",
+        "Apa persyaratan Kampus Mengajar?",
+        "Syarat Kampus Mengajar?",
+        "Syarat mengikuti Kampus Mengajar?",
+        "Apa syarat yang harus dipenuhi untuk mengikuti Kampus Mengajar?",
+        "Apa kriteria yang harus dipenuhi untuk mengikuti Kampus Mengajar?",
+        "Apa persyaratan yang harus dimiliki untuk mengikuti Kampus Mengajar?",
+        "Apa saja syarat mengikuti program Kampus Mengajar?",
+        "Apa saja persyaratan mengikuti program Kampus Mengajar?",
+        "Apa saja hal yang perlu dipersiapkan sebagai persyaratan Kampus Mengajar?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif semester 4, memiliki IPK minimum 3.00, memiliki pengalaman mengajar maupun berorganisasi, memperoleh surat rekomendasi dari Perguruan tinggi, serta belum pernah mengikuti program Kampus Mengajar"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_kampus_mengajar",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program Kampus Mengajar?",
+        "Berapa lama periode Kampus Mengajar?",
+        "Bagaimana cara mendaftar Kampus Mengajar?",
+        "Cara daftar Kampus Mengajar?",
+        "Periode program Kampus Mengajar?",
+        "Cara mendaftar Kampus Mengajar?",
+        "Periode program Kampus Mengajar?",
+        "Berapa durasi  program Kampus Mengajar?",
+        "Berapa jangka waktu program Kampus Mengajar?",
+        "Berapa lama peserta dapat mengikuti program Kampus Mengajar?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/program/mengajar"
+      ]
+    },
+    {
+      "tag": "manfaat_kampus_mengajar",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Kampus Mengajar?",
+        "Manfaat Kampus Mengajar?",
+        "Apa saja manfaat Kampus Mengajar?",
+        "Manfaat mengikuti Kampus Mengajar?",
+        "Apa keuntungan yang bisa didapatkan dari mengikuti program Kampus Mengajar?",
+        "Apa saja keuntungan mengikuti program Kampus Mengajar",
+        "Apa saja manfaat mengikuti program Kampus Mengajar?",
+        "Apa manfaat yang diperoleh dari program Kampus Mengajar?",
+        "Keuntungan mengikuti program Kampus Mengajar",
+        "Apa manfaat yang didapatkan dari program Kampus Mengajar?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu mendapatkan bantuan biaya hidup serta UKT (bagi yang tidak sedang menerima bantuan pemerintah lainnya), mengasah kepemimpinan, kreativitas, pemecahan masalah, inovasi, serta terlibat langsung dalam pembelajaran di jenjang SD dan SMP"
+      ]
+    },
+    {
+      "tag": "penjelasan_IISMA",
+      "patterns": [
+        "Apa itu IISMA?",
+        "Apa IISMA?",
+        "IISMA?",
+        "IISMA adalah",
+        "Penjelasan IISMA",
+        "Apa pengertian dari IISMA?",
+        "Apa defenisi dari IISMA?",
+        "Apa yang dimaksud dengan IISMA",
+        "Pengertian IISMA",
+        "Defenisi IISMA"
+      ],
+      "responses": [
+        "IISMA adalah singkatan dari Indonesian International Student Mobility Awards. Salah satu program Kampus Merdeka Kemendikbud berupa skema beasiswa dari Pemerintah Indonesia untuk mendanai siswa dalam program mobilitas ke universitas terkemuka di luar negeri"
+      ]
+    },
+    {
+      "tag": "persyaratan_IISMA",
+      "patterns": [
+        "Apa saja persyaratan IISMA?",
+        "Syarat megikuti IISMA?",
+        "Apa syarat IISMA?",
+        "Syarat IISMA?",
+        "Apa syarat yang harus dipenuhi untuk mengikuti IISMA?",
+        "Apa kriteria yang harus dipenuhi untuk mengikuti IISMA?",
+        "Apa persyaratan yang harus dimiliki untuk mengikuti IISMA?",
+        "Apa saja syarat mengikuti program IISMA?",
+        "Apa saja persyaratan mengikuti program IISMA?",
+        "Apa saja hal yang perlu dipersiapkan sebagai persyaratan IISMA?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif semester 4 hingga 6, maksimal berumur 23 tahun, memiliki IPK minimal 3.00, memiliki score IELTS - 6.0, TOEFL iBT - 78, Duolingo English Test - 100, mendapatkan surat rekomendasi Perguruan Tinggi, serta belum pernah mengikuti program IISMA maupun beasiswa LPDP"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_IISMA",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program IISMA?",
+        "Cara mendaftar IISMA?",
+        "Bagaimana cara mendaftar IISMA?",
+        "Berapa lama periode IISMA?",
+        "Periode program IISMA?",
+        "Cara mendaftar IISMA?",
+        "Periode program IISMA?",
+        "Berapa durasi  program IISMA?",
+        "Berapa jangka waktu program IISMA?",
+        "Berapa lama peserta dapat mengikuti program IISMA?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/km/IISMA/landing.html"
+      ]
+    },
+    {
+      "tag": "manfaat_IISMA",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti IISMA?",
+        "Manfaat IISMA?",
+        "Manfaat mengikuti IISMA?",
+        "Apa saja manfaat IISMA?",
+        "Apa keuntungan yang bisa didapatkan dari mengikuti program IISMA?",
+        "Apa saja keuntungan mengikuti program IISMA",
+        "Apa saja manfaat mengikuti program IISMA?",
+        "Apa manfaat yang diperoleh dari program IISMA?",
+        "Keuntungan mengikuti program IISMA",
+        "Apa manfaat yang didapatkan dari program IISMA?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, bantuan biaya pendaftaran, pendidikan, serta biaya hidup selama 1 semester, test PCR, karantina, visa, transport, dan asuransi kesehatan"
+      ]
+    },
+    {
+      "tag": "mitra_IISMA",
+      "patterns": [
+        "Apa saja universitas yang tergabung dalam program IISMA?",
+        "Mitra IISMA?",
+        "Apa saja mitra IISMA?",
+        "Universitas apa saja dalam program IISMA?",
+        "Siapa saja yang menjadi mitra program IISMA?",
+        "Dengan siapa saja program IISMA menjalin kerjasama?",
+        "Siapa saja yang bekerja sama dengan program IISMA?",
+        "Apa universitas yang terlibat dalam program IISMA?",
+        "Siapa saja yang berkolaborasi dengan program IISMA?",
+        "Apa pihak-pihak yang terlibat sebagai mitra dalam program IISMA?",
+        "Apa universitas yang menjadi partner dalam program IISMA?",
+        "Apa universitas yang menjadi mitra program IISMA?"
+      ],
+      "responses": [
+        "Universitas yang tergabung seperti Boston University, Monash University, Nanyang University, University of Birmingham, dsb. Info lebih lanjut melalui laman https://site.iisma.id/host-universities-list"
+      ]
+    },
+    {
+      "tag": "penjelasan_pertukaran_mahasiswa",
+      "patterns": [
+        "Apa itu Pertukaran Mahasiswa Merdeka?",
+        "Apa itu PMM?",
+        "Pertukaran Mahasiswa Merdeka?",
+        "Pertukaran Mahasiswa Merdeka adalah",
+        "Penjelasan Pertukaran Mahasiswa Merdeka",
+        "Apa pengertian dari Pertukaran Mahasiswa Merdeka?",
+        "Apa defenisi dari Pertukaran Mahasiswa Merdeka?",
+        "Apa yang dimaksud dengan Pertukaran Mahasiswa Merdeka",
+        "Pengertian Pertukaran Mahasiswa Merdeka",
+        "Defenisi Pertukaran Mahasiswa Merdeka"
+      ],
+      "responses": [
+        "Pertukaran Mahasiswa Merdeka merupakan pertukaran pelajar dengan program studi yang sama ke Perguruan Tinggi berbeda maupun pertukaran pelajar dengan program studi berbeda ke Perguruan Tinggi berbeda. Kegiatan pembelajaran dapat secara tatap muka atau daring. Program ini bertujuan untuk memperkaya pengalaman dan konteks keilmuan mahasiswa"
+      ]
+    },
+    {
+      "tag": "persyaratan_pertukaran_mahasiswa",
+      "patterns": [
+        "Apa saja persyaratan Pertukaran Mahasiswa Merdeka?",
+        "Syarat Pertukaran Mahasiswa Merdeka?",
+        "Apa syarat Pertukaran Mahasiswa Merdeka?",
+        "Syarat mengikuti Pertukaran Mahasiswa Merdeka?",
+        "Apa syarat yang harus dipenuhi untuk mengikuti Pertukaran Mahasiswa Merdeka?",
+        "Apa kriteria yang harus dipenuhi untuk mengikuti Pertukaran Mahasiswa Merdeka?",
+        "Apa persyaratan yang harus dimiliki untuk mengikuti Pertukaran Mahasiswa Merdeka?",
+        "Apa saja syarat mengikuti program Pertukaran Mahasiswa Merdeka?",
+        "Apa saja persyaratan mengikuti program Pertukaran Mahasiswa Merdeka?",
+        "Apa saja hal yang perlu dipersiapkan sebagai persyaratan Pertukaran Mahasiswa Merdeka?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif semester 3, 5, dan 7, memiliki IPK minimal 2.75, memiliki pengalaman prestasi non-akademik tingkat daerah/nasional/internasional, tidak pernah dikenakan sanksi akademik maupun non-akademik, serta mendapatkan surat rekomendasi dari Perguruan Tinggi dan izin orang tua"
+      ]
+    },
+    {
+      "tag": "manfaat_pertukaran_mahasiswa",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Pertukaran Mahasiswa Merdeka?",
+        "Manfaat Pertukaran Mahasiswa Merdeka?",
+        "Apa manfaat Pertukaran Mahasiswa Merdeka?",
+        "Manfaat mengikuti Pertukaran Mahasiswa Merdeka?",
+        "Apa keuntungan yang bisa didapatkan dari mengikuti program Pertukaran Mahasiswa Merdeka?",
+        "Apa saja keuntungan mengikuti program Pertukaran Mahasiswa Merdeka",
+        "Apa saja manfaat mengikuti program Pertukaran Mahasiswa Merdeka?",
+        "Apa manfaat yang diperoleh dari program Pertukaran Mahasiswa Merdeka?",
+        "Keuntungan mengikuti program Pertukaran Mahasiswa Merdeka",
+        "Apa manfaat yang didapatkan dari program Pertukaran Mahasiswa Merdeka?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, bantuan biaya hidup dan UKT, transport pulang-pergi ke kampus tujuan, dan biaya rapid pulang-pergi"
+      ]
+    },
+    {
+      "tag": "penjelasan_pejuang_muda",
+      "patterns": [
+        "Apa itu Pejuang Muda?",
+        "Pejuang Muda?",
+        "Apa Pejuang Muda?",
+        "Pejuang Muda adalah",
+        "Penjelasan Pejuang Muda",
+        "Apa pengertian dari Pejuang Muda?",
+        "Apa defenisi dari Pejuang Muda?",
+        "Apa yang dimaksud dengan Pejuang Muda",
+        "Pengertian Pejuang Muda",
+        "Defenisi Pejuang Muda"
+      ],
+      "responses": [
+        "Pejuang Muda adalah laboratorium sosial mahasiswa yang berkolaborasi dengan Kementerian Sosial untuk merancang digital campaign dan mengeksekusi program sosial yang relevan untuk membuat perubahan nyata di masyarakat "
+      ]
+    },
+    {
+      "tag": "persyaratan_pejuang_muda",
+      "patterns": [
+        "Apa saja persyaratan Pejuang Muda?",
+        "Syarat Pejuang Muda",
+        "Syarat mengikuti Pejuang Muda?",
+        "Apa syarat mengikuti Pejuang Muda?",
+        "Apa syarat yang harus dipenuhi untuk mengikuti Pejuang Muda?",
+        "Apa kriteria yang harus dipenuhi untuk mengikuti Pejuang Muda?",
+        "Apa persyaratan yang harus dimiliki untuk mengikuti Pejuang Muda?",
+        "Apa saja syarat mengikuti program Pejuang Muda?",
+        "Apa saja persyaratan mengikuti program Pejuang Muda",
+        "Apa saja hal yang perlu dipersiapkan sebagai persyaratan Pejuang Muda?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif minimal semester 5, memiliki IPK minimal 2.75, memiliki pengalaman organisasi, mampu bekerjasama dan berkomunikasi dengan baik, serta siap untuk ditempatkan di seluruh lokasi Indonesia"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_pejuang_muda",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program Pejuang Muda?",
+        "Cara mendaftar program Pejuang Muda?",
+        "Berapa lama periode program Pejuang Muda?",
+        "Bagaimana cara mendaftar program Pejuang Muda?",
+        "Periode program Pejuang Muda?",
+        "Cara mendaftar Pejuang Muda?",
+        "Periode program Pejuang Muda?",
+        "Berapa durasi  program Pejuang Muda?",
+        "Berapa jangka waktu program Pejuang Muda?",
+        "Berapa lama peserta dapat mengikuti program Pejuang Muda?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi laman https://pejuangmuda.kemensos.go.id/"
+      ]
+    },
+    {
+      "tag": "manfaat_pejuang_muda",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Pejuang Muda?",
+        "Manfaat Pejuang Muda?",
+        "Apa manfaat program Pejuang Muda?",
+        "Manfaat mengikuti program Pejuang Muda?",
+        "Apa keuntungan yang bisa didapatkan dari mengikuti program Pejuang Muda?",
+        "Apa saja keuntungan mengikuti program Pejuang Muda?",
+        "Apa saja manfaat mengikuti program Pejuang Muda?",
+        "Apa manfaat yang diperoleh dari program Pejuang Muda?",
+        "Keuntungan mengikuti program Pejuang Muda",
+        "Apa manfaat yang didapatkan dari program Pejuang Muda?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, pendampingan langsung dengan Kemensos, mentoring eksklusif, atribut, uang saku, biaya transport, dan anggaran hibah"
+      ]
+    },
+    {
+      "tag": "penjelasan_PMMB",
+      "patterns": [
+        "Apa itu PMMB?",
+        "Apa PMMB?",
+        "PMMB",
+        "PMMB adalah",
+        "Penjelasan PMMB",
+        "Apa pengertian dari PMMB?",
+        "Apa defenisi dari PMMB?",
+        "Apa yang dimaksud dengan PMMB",
+        "Pengertian PMMB",
+        "Defenisi PMMB"
+      ],
+      "responses": [
+        "PMMB adalah singkatan dari Program Magang Mahasiswa Bersertifikat. PMMB adalah program dari FHCI yang bekerja sama dengan BUMN yang memberi kesempatan kepada mahasiswa untuk menyalurkan potensi dan menggali pengalaman di BUMN"
+      ]
+    },
+    {
+      "tag": "persyaratan_PMMB",
+      "patterns": [
+        "Apa saja persyaratan PMMB?",
+        "Syarat PMMB?",
+        "Apa syarat megikuti PMMB?",
+        "Syarat mengikuti program PMMB?",
+        "Apa syarat yang harus dipenuhi untuk mengikuti PMMB?",
+        "Apa kriteria yang harus dipenuhi untuk mengikuti PMMB?",
+        "Apa persyaratan yang harus dimiliki untuk mengikuti PMMB?",
+        "Apa saja syarat mengikuti program PMMB?",
+        "Apa saja persyaratan mengikuti program PMMB",
+        "Apa saja hal yang perlu dipersiapkan sebagai persyaratan PMMB?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif semester 5, memiliki IPK minimal 2.75, mendapatkan izin dari dosen wali dan kaprodi, bersedia ditempatkan di perusahaan yang sudah terdaftar di FHCI"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_PMMB",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program PMMB?",
+        "Bagaimana cara daftar program PMMB?",
+        "Cara daftar program PMMB?",
+        "Berapa lama periode program PMMB?",
+        "Periode program PMMB?",
+        "Berapa durasi  program PMMB?",
+        "Berapa jangka waktu program PMMB?",
+        "Berapa lama peserta dapat mengikuti program PMMB?",
+        "Bagaimana prosedur pendaftaran untuk program PMMB?",
+        "Apa langkah-langkah yang harus diikuti untuk mendaftar program PMMB?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi website FHCI BUMN atau instagram @fhci.bumn"
+      ]
+    },
+    {
+      "tag": "manfaat_PMMB",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti PMMB?",
+        "Manfaat program PMMB?",
+        "Apa manfaat mengikuti program PMMB?",
+        "Manfaat mengikuti program PMMB?",
+        "Apa keuntungan yang bisa didapatkan dari mengikuti program PMMB?",
+        "Apa saja keuntungan mengikuti program PMMB",
+        "Apa saja manfaat mengikuti program PMMB?",
+        "Apa manfaat yang diperoleh dari program PMMB?",
+        "Keuntungan mengikuti program PMMB",
+        "Apa manfaat yang didapatkan dari program PMMB?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, mendapatkan sertifikat industri, mengenal dunia kerja, serta uang saku"
+      ]
+    },
+    {
+      "tag": "mitra_PMMB",
+      "patterns": [
+        "Apa saja universitas yang tergabung dalam program PMMB?",
+        "Mitra PMMB?",
+        "Apa saja mitra program PMMB?",
+        "Siapa saja yang menjadi mitra program PMMB?",
+        "Dengan siapa saja program PMMB menjalin kerjasama?",
+        "Siapa saja yang bekerja sama dengan program PMMB?",
+        "Apa organisasi yang terlibat dalam program PMMB?",
+        "Siapa saja yang berkolaborasi dengan program PMMB?",
+        "Apa pihak-pihak yang terlibat sebagai mitra dalam program PMMB?",
+        "Apa instansi yang menjadi partner dalam program PMMB?",
+        "Apa lembaga yang menjadi mitra program PMMB?"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Pertamina, Bank BRI, PT. KBN, dsb. Info lebih lanjut melalui website FHCI BUMN atau instagram @fhci.bumn"
+      ]
+    },
+    {
+      "tag": "penjelasan_bangkit",
+      "patterns": [
+        "Apa itu Bangkit?",
+        "Bangkit adalah?",
+        "Apa itu program Bangkit?",
+        "Bangkit",
+        "Apa yang dimaksud dengan program Bangkit?",
+        "Apa pengertian dari program Bangkit?",
+        "Apa defenisi dari program Bangkit?",
+        "Penjelasan program Bangkit",
+        "Defenisi program Bangkit",
+        "Pengertian program Bangkit"
+      ],
+      "responses": [
+        "Program Bangkit adalah program kesiapan karier yang didesain oleh Google untuk memberikan mahasiswa Indonesia paparan langsung dengan praktisi industri, serta mempersiapkan mahasiswa dengan keterampilan yang relevan untuk karier sukses di perusahaan teknologi terkemuka."
+      ]
+    },
+    {
+      "tag": "persyaratan_bangkit",
+      "patterns": [
+        "Apa saja persyaratan progam Bangkit?",
+        "Apa syarat program Bangkit?",
+        "Persyaratan program Bangkit?",
+        "Apa syarat-syarat yang harus dipenuhi peserta program Bangkit?",
+        "Apa syarat-syarat yang perlu dipenuhi untuk mengikuti program Bangkit?",
+        "Apa saja kriteria yang harus dipenuhi untuk mendaftar program Bangkit?",
+        "Apa persyaratan utama yang harus dipenuhi dalam program Bangkit?",
+        "Apa saja hal-hal yang perlu dipenuhi sebagai persyaratan program Bangkit?",
+        "Apa saja komponen persyaratan yang harus dipenuhi dalam program Bangkit?",
+        "Apa saja hal yang perlu dipersiapkan sebagai persyaratan program Bangkit?"
+      ],
+      "responses": [
+        "Mahasiswa aktif D4 atau S1, minimal semester 5, di kampus terakreditasi bagi S1 atau politeknik di Indonesia bagi D4. Untuk mahasiswa D3, minimal semester 3. Memberikan surat komitmen dan surat rekomendasi universitas."
+      ]
+    },
+    {
+      "tag": "program_bangkit",
+      "patterns": [
+        "Apa saja progam yang ada di Bangkit?",
+        "Apa saja jalur pembelajaran program Bangkit?",
+        "Apa saja program Bangkit?",
+        "Apa program-program yang ditawarkan dalam program Bangkit?",
+        "Apa saja jenis program yang dapat diikuti di Bangkit?",
+        "Apa jenis-jenis program yang dapat dipilih di Bangkit?",
+        "Apa pilihan program yang bisa diambil dalam program Bangkit?",
+        "Program apa saja yang ditawarkan dalam program Bangkit?",
+        "Apa opsi program yang ada dalam program Bangkit?",
+        "Apa ragam program yang tersedia di Bangkit?"
+      ],
+      "responses": [
+        "Bangkit menawarkan 3 pilihan jalur pembelajaran yaitu machine learning, mobile development, dan cloud computing. Tidak hanya keterampilan teknologi, Bangkit juga menyediakan pengembangan Bahasa Inggris dan soft skill yang penting untuk persiapan karir."
+      ]
+    },
+    {
+      "tag": "manfaat_bangkit",
+      "patterns": [
+        "Apa saja manfaat Bangkit?",
+        "Manfaat mengikuti program Bangkit?",
+        "Manfaat program Bangkit?",
+        "Apa keuntungan yang bisa didapatkan dari program Bangkit?",
+        "Keuntungan program Bangkit",
+        "Apa saja keuntungan mengikuti program Bangkit",
+        "Apa saja manfaat mengikuti program Bangkit?",
+        "Apa manfaat yang diperoleh dari program Bangkit?",
+        "Bagaimana program Bangkit dapat memberikan manfaat kepada pesertanya?",
+        "Apa peran Bangkit dalam mempersiapkan peserta untuk dunia kerja?"
+      ],
+      "responses": [
+        "Keterampilan penting untuk karier yang sukses di perusahaan teknologi terkemuka, peluang untuk menerapkan pembelajaran Anda ke proyek skala nasional dunia nyata, kesempatan untuk belajar dari pakar dan praktisi industri saat ini, persiapan dan voucher gratis untuk ujian sertifikasi AAD/ACE/Tensorflow, dan kemungkinan mendapatkan dan menerapkan hingga 20 Kredit Studi Universitas (SKS) ke program gelar universitas Anda"
+      ]
+    },
+    {
+      "tag": "penjelasan_kknt",
+      "patterns": [
+        "Apa itu KKNT?",
+        "KKNT itu apa?",
+        "KKNT?",
+        "Program KKNT adalah?",
+        "Apa pengertian dari KKNT",
+        "Apa defenisi dari KKNT",
+        "Apa yang dimaksud dengan KKNT",
+        "Pengertian dari program KKNT",
+        "Defenisi dari program KKNT",
+        "Penjelasan KKNT"
+      ],
+      "responses": [
+        "Kuliah Kerja Nyata Tematik (KKNT) merupakan suatu bentuk Pendidikan dengan cara memberikan pengalaman belajar kepada mahasiswa untuk hidup di tengah masyarakat di luar kampus, yang secara langsung bersama-sama masyarakat mengidentifikasi potensi dan menangani masalah sehingga diharapkan mampu mengembangkan potensi desa/daerah dan meramu solusi untuk masalah yang ada di desa."
+      ]
+    },
+    {
+      "tag": "tujuan_kknt",
+      "patterns": [
+        "Tujuan KKNT?",
+        "Apa saja tujuan KKNT?",
+        "Tujuan program KKNT?",
+        "Apa yang menjadi tujuan utama dari program KKNT?",
+        "Apa tujuan dari program KKNT",
+        "Apa yang menjadi tujuan dari program KKNT?",
+        "Apa yang ingin diperoleh dari program KKNT?",
+        "Apa tujuan akhir yang ingin dicapai melalui KKNT?",
+        "Apa maksud dari diadakannya program KKNT?",
+        "Apa saja target yang ingin dicapai melalui KKNT?"
+      ],
+      "responses": [
+        "Kegiatan KKNT diharapkan dapat mengasah softskill kemitraan, Kerjasama tim lintas disiplin/keilmuan (lintas kompetensi), dan leadership mahasiswa dalam mengelola program pembangunan di wilayah perdesaan."
+      ]
+    },
+    {
+      "tag": "manfaat_kknt",
+      "patterns": [
+        "Apa saja manfaat KKNT?",
+        "Manfaat mengikuti program KKNT?",
+        "Manfaat program KKNT?",
+        "Manfaat KKNT?",
+        "Apa manfaat yang dapat diperoleh dari mengikuti program KKNT?",
+        "Apa keuntungan-keuntungan yang bisa didapatkan dari program KKNT?",
+        "Apa keuntungan mengikuti program KKNT?",
+        "Apa manfaat mengikuti program KKNT",
+        "Apa saja manfaat yang didapatkan dari program KKNT?",
+        "Apa saja keuntungan yang didapatkan dari program KKNT?"
+      ],
+      "responses": [
+        "Membuat mahasiswa mampu melihat potensi desa, mengidentifikasi masalah dan mencari solusi untuk meningkatkan potensi dan menjadi desa mandiri, Membuat mahasiswa dapat mengaplikasikan ilmu yang dimiliki secara kolaboratif bersama dengan Pemerintah Desa dan unsur masyarakat untuk membangun desa."
+      ]
+    },
+    {
+      "tag": "persyataran_kknt",
+      "patterns": [
+        "Apa saja persyaratan KKNT?",
+        "persyaratan KKNT?",
+        "persyaratan mengikuti KKNT?",
+        "Apa persyaratan yang diperlukan untuk mengikuti program KKNT?",
+        "Apa saja syarat-syarat yang harus dipenuhi untuk mendaftar KKNT?",
+        "Apa kriteria yang harus dipenuhi untuk mengikuti KKNT?",
+        "Apa syarat-syarat yang harus dipenuhi peserta KKNT?",
+        "Apa persyaratan dasar yang harus dipenuhi peserta KKNT?",
+        "Apa saja hal yang perlu dipersiapkan sebagai persyaratan KKNT?",
+        "Apa saja hal-hal yang perlu dipenuhi sebagai persyaratan KKNT?"
+      ],
+      "responses": [
+        "Mahasiswa berasal dari Program Studi yang mengajukan program kampus merdeka dengan bentuk kegiatan Kuliah Kerja Nyata Tematik(KKNT); Mahasiswa Aktif yang terdaftar pada PDDikti dibuktikan dengan Kartu Studi Mahasiswa (KSM); Termasuk dalam mahasiswa kelas reguler (bukan mahasiswa alih jenjang, dan program lainnya) pada program studi strata 1; Telah lulus dari sedikitnya 90 sks pada program studi asal dan tidak ada nilai E, dibuktikan dengan kartu hasil studi; Memiliki IPK >= 2.0, dibuktikan dengan kartu hasil studi; Sehat jasmani dan rohani, dibuktikan dengan surat keterangan sehat yang masih berlaku, serta tidak sedang hamil bagi wanita; Lulus dari seleksi yang diadakan oleh Institut Teknologi Telkom Purwokerto dan atau mitra tujuan, dibuktikan dengan LoA (Letter of Agreement); Dilakukan secara berkelompok, anggota berjumlah 5 sampai 10 mahasiswa per kelompok dengan minimal 3 disiplin keilmuan yang berbeda; Ketentuan lain dapat diatur oleh perguruan tinggi pelaksana"
+      ]
+    },
+    {
+      "tag": "lokasi_kknt",
+      "patterns": [
+        "Dimana lokasi KKNT?",
+        "Lokasi program KKNT?",
+        "KKNT dilakukan dimana?",
+        "Lokasi KKNT?",
+        "Di mana tempat program KKNT diselenggarakan?",
+        "Di daerah mana program KKNT diadakan?",
+        "Di tempat mana program KKNT tersedia?",
+        "Dimana lokasi program KKNT berlangsung?",
+        "Di wilayah mana program KKNT dilaksanakan?",
+        "Di mana lokasi yang menjadi tuan rumah program KKNT?"
+      ],
+      "responses": [
+        "Desa Melung, Kecamatan Kedungbanteng, Banyumas, Jawa Tengah; Desa Pliken, Kecamatan Kembaran, Banyumas, Jawa Tengah; Desa Baseh, Kecamatan Kedungbanteng, Jawa Tengah"
+      ]
+    },
+    {
+      "tag": "jangka_waktu_kknt",
+      "patterns": [
+        "Berapa lama program KKNT?",
+        "Jangka waktu program KKNT?",
+        "jangka waktu KKNT?",
+        "lama program KKNT?",
+        "Berapa durasi program KKNT?",
+        "Berapa lama program KKNT berlangsung?",
+        "Berapa periode waktu yang diperlukan dalam program KKNT?",
+        "Berapa lamakah program KKNT berjalan?",
+        "Berapa estimasi waktu yang dibutuhkan untuk mengikuti program KKNT?",
+        "Berapa waktu yang dibutuhkan untuk menyelesaikan program KKNT?"
+      ],
+      "responses": [
+        "Jangka waktu pelaksanaan kegiatan KKNT agar dapat diakui sesuai dengan program kampus merdeka yaitu pengakuan kreditnya setara 6 bulan atau 20 SKS. Jika dalam proses pelaksanaan kompetensi mahasiswa tidak memenuhi ekuivalensi 20 SKS, maka mahasiswa dapat mengambil MK daring atau lainnya sesuai ketentuan Perguruan Tinggi."
+      ]
+    }
+  ]
+}
